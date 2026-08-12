@@ -34,11 +34,11 @@ Approach: Uses regression models (Linear Regression, Random Forest, Gradient Boo
 Output: A numeric prediction of expected insurance cost for a given individual profile.
 
 ## Contents
-* [Insurance_Datasets.csv](data.csv)  — Complete Historical Dataset
-* [Insurance Cost Prediction Model.ipynb](src/model.py)  — Full analysis notebook: EDA,visualizations (Univariate/Bivariate/Multivariate), hypothesis testing, feature engineering, and 4 ML models (Linear Regression, Random Forest,Gradient Boosting, XGBoost) with hyperparameter tuning.
-* [Insurance_Cost_Data_Analysis_Report.docx](docs/Report.docx) :  — Report of Entire Work
-* [Model_Comparison_and_Production_Report.docx](docs/Report.docx)  — Performance comparison across all three models and final model recommendation.
-* [Data_Challenges_Faced_and_Techniques.docx](.docx)  —  Data and modeling challenges encountered, techniques used, and reasoning.
+* [Insurance_Datasets.csv](https://github.com/priyankamanik35-lgtm/Insurance_Cost_Prediction/blob/main/Insurance_Datasets.csv)  — Complete Historical Dataset
+* [Insurance Cost Prediction Model.ipynb]()  — Full analysis notebook: EDA,visualizations (Univariate/Bivariate/Multivariate), hypothesis testing, feature engineering, and 4 ML models (Linear Regression, Random Forest,Gradient Boosting, XGBoost) with hyperparameter tuning.
+* [Insurance_Cost_Data_Analysis_Report.docx]() :  — Report of Entire Work
+* [Model_Comparison_and_Production_Report.docx]()  — Performance comparison across all three models and final model recommendation.
+* [Data_Challenges_Faced_and_Techniques.docx]()  —  Data and modeling challenges encountered, techniques used, and reasoning.
 
 ## Model Performance Summary
 | Model              | RMSE   | MAE    | R² Score | Adjusted R² |
