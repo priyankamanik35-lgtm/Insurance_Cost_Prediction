@@ -1,5 +1,4 @@
-# ***📝 Insurance_Cost_Prediction***
-       (PRCP-1021-InsCostPred)
+# ***📝 Insurance_Cost_Prediction***(PRCP-1021-InsCostPred)
 
 The Insurance Cost Prediction project is a machine learning application designed to estimate medical insurance expenses based on individual demographic and lifestyle factors. By analyzing historical insurance data, the model identifies patterns and relationships between variables such as:
 
@@ -34,4 +33,28 @@ Approach: Uses regression models (Linear Regression, Random Forest, Gradient Boo
 
 Output: A numeric prediction of expected insurance cost for a given individual profile.
 
+## Contents
+* Insurance_Datasets.csv  — Complete Historical Dataset
+* Insurance Cost Prediction Model.ipynb  — Full analysis notebook: EDA,visualizations (Univariate/Bivariate/Multivariate), hypothesis testing, feature engineering, and 4 ML models (Linear Regression, Random Forest,Gradient Boosting, XGBoost) with hyperparameter tuning.
+* Insurance_Cost_Data_Analysis_Report.docx :  — Report of Entire Work
+* Model_Comparison_and_Production_Report.docx  — Performance comparison across all three models and final model recommendation.
+* Data_Challenges_Faced_and_Techniques.docx  —  Data and modeling challenges encountered, techniques used, and reasoning.
 
+## Model Performance Summary
+| Model              | RMSE   | MAE    | R² Score | Adjusted R² |
+|--------------------|--------|--------|----------|-------------|
+| Linear Regression  | 0.4526 | 0.2991 | 0.7722   | 0.7687      |
+| Random Forest      | 0.4174 | 0.2358 | 0.8062   | 0.8033      |
+| Gradient Boosting  | 0.3858 | 0.2177 | 0.8344   | 0.8319      |
+| XGBoost            | 0.3970 | 0.2245 | 0.8247   | 0.8221      |
+
+
+ | Model              | R² Before Tuning | R² After Tuning | Change                          |
+|--------------------|------------------|-----------------|---------------------------------|
+| Linear Regression  | 0.7722           | 0.7722          | No change                       |
+| Random Forest      | 0.8062           | 0.8117          | +0.0055 (small improvement)     |
+| Gradient Boosting  | 0.8344           | 0.8313          | −0.0031 (essentially unchanged) |
+| XGBoost            | 0.8247           | 0.8318          | +0.0071 (improved)              |
+
+## Tech Stack
+Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · SciPy
