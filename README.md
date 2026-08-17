@@ -15,32 +15,69 @@ Smoking Status 🚬 – A major driver of higher premiums.
 Region 🌍 – Geographic differences in healthcare costs.
 
 
-## Problem Statement
-Task 1:- Prepare a complete data analysis report on the given data.
+## 🛑Problem Statement
+📝Task 1:- Prepare a complete data analysis report on the given data.
 
-Task 2:-
+📝Task 2:-
 1.Prepare the data, identifying and extracting key features (both input and output parameters) relevant to the problem you will solve.
 2.Build and train a machine learning model. Here you can evaluate different algorithms, settings and see which model is best for your scenario.
 
-Task 3:-  Create a machine learning model to predict the insurance price charged to the customer. The charge depends on various features such as age, type of coverage, amount of coverage needed, gender, body mass index (BMI), region, and other special factors like smoking to determine what health risks the person possesses.
+📝Task 3:-  Create a machine learning model to predict the insurance price charged to the customer. The charge depends on various features such as age, type of coverage, amount of coverage needed, gender, body mass index (BMI), region, and other special factors like smoking to determine what health risks the person possesses.
 
 ## Project Type
 Project Type: Predictive Analytics / Regression
 
-Goal: Estimate medical insurance costs based on demographic and lifestyle features.
+### 🎯Goal: 
+Estimate medical insurance costs based on demographic and lifestyle features.
 
-Approach: Uses regression models (Linear Regression, Random Forest, Gradient Boosting,XGBoost etc.) to learn from historical insurance data and predict continuous numerical values (insurance charges).
+### 🧭Approach: 
+Uses regression models to learn from historical insurance data and predict continuous numerical values (insurance charges).
+* Linear Regression
+* Random Forest
+* Gradient Boosting
+* XGBoost 
 
-Output: A numeric prediction of expected insurance cost for a given individual profile.
+### 📊Output: 
+A numeric prediction of expected insurance cost for a given individual profile.
 
-## Contents
+## 📑Contents
 * [Insurance_Datasets.csv](https://github.com/priyankamanik35-lgtm/Insurance_Cost_Prediction/blob/main/Insurance_Datasets.csv)  — Complete Historical Dataset
 * [Insurance Cost Prediction Model.ipynb](https://github.com/priyankamanik35-lgtm/Insurance_Cost_Prediction/blob/main/Insurance%20Cost%20Prediction%20Model.ipynb)  — Full analysis notebook: EDA,visualizations (Univariate/Bivariate/Multivariate), hypothesis testing, feature engineering, and 4 ML models (Linear Regression, Random Forest,Gradient Boosting, XGBoost) with hyperparameter tuning.
 * [Data_Analysis_Report.docx](https://github.com/priyankamanik35-lgtm/Insurance_Cost_Prediction/blob/main/Insurance_Cost_Data_Analysis_Report.docx) :  — Report of Entire Work
 * [Model_Comparison_and_Production_Report.docx](https://github.com/priyankamanik35-lgtm/Insurance_Cost_Prediction/blob/main/Model_Comparison_and_Production_Recommendation.docx)  — Performance comparison across all three models and final model recommendation.
 * [Data_Challenges_Faced_and_Techniques.docx](https://github.com/priyankamanik35-lgtm/Insurance_Cost_Prediction/blob/main/Data_Challenges_Faced_and_Techniques_Report.docx)  —  Data and modeling challenges encountered, techniques used, and reasoning.
 
-## Model Performance Summary
+## 🔄 Workflow
+
+Raw Dataset  
+&nbsp; ↓  
+Data Understanding & Validation  
+&nbsp; ↓  
+Exploratory Data Analysis  
+&nbsp; ↓  
+Statistical Hypothesis Testing  
+&nbsp; ↓  
+Identify Data Challenges  
+&nbsp; ↓  
+Feature Selection & Encoding  
+&nbsp; ↓  
+Log Transformation of Target  
+&nbsp; ↓  
+Train-Test Split  
+&nbsp; ↓  
+Train 4 Regression Models  
+&nbsp; ↓  
+Hyperparameter Tuning  
+&nbsp; ↓  
+Model Evaluation & Comparison  
+&nbsp; ↓  
+Gradient Boosting Selection  
+&nbsp; ↓  
+Model Serialization (.pkl)  
+&nbsp; ↓  
+Insurance Cost Prediction
+
+## 📋Model Performance Summary
 | Model              | RMSE   | MAE    | R² Score | Adjusted R² |
 |--------------------|--------|--------|----------|-------------|
 | Linear Regression  | 0.4526 | 0.2991 | 0.7722   | 0.7687      |
@@ -49,12 +86,12 @@ Output: A numeric prediction of expected insurance cost for a given individual p
 | XGBoost            | 0.3970 | 0.2245 | 0.8247   | 0.8221      |
 
 
- | Model              | R² Before Tuning | R² After Tuning | Change                          |
+ | Model              | R² Before Tuning | R² After Tuning | Result                          |
 |--------------------|------------------|-----------------|---------------------------------|
 | Linear Regression  | 0.7722           | 0.7722          | No change                       |
 | Random Forest      | 0.8062           | 0.8117          | +0.0055 (small improvement)     |
 | Gradient Boosting  | 0.8344           | 0.8313          | −0.0031 (essentially unchanged) |
 | XGBoost            | 0.8247           | 0.8318          | +0.0071 (improved)              |
 
-## Tech Stack
+## 🛠️Tech Stack
 Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · SciPy
