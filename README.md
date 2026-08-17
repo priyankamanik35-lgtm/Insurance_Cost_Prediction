@@ -50,32 +50,33 @@ A numeric prediction of expected insurance cost for a given individual profile.
 ## 🔄 Workflow
 
 Raw Dataset  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Data Understanding & Validation  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Exploratory Data Analysis  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Statistical Hypothesis Testing  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Identify Data Challenges  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Feature Selection & Encoding  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Log Transformation of Target  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Train-Test Split  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Train 4 Regression Models  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Hyperparameter Tuning  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Model Evaluation & Comparison  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Gradient Boosting Selection  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Model Serialization (.pkl)  
-&nbsp; ↓  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↓  
 Insurance Cost Prediction
+
 
 ## 📋Model Performance Summary
 | Model              | RMSE   | MAE    | R² Score | Adjusted R² |
